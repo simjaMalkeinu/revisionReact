@@ -31,17 +31,6 @@ const ItemListContainer = () => {
       });
   }, [categoryId]);
 
-  /*  useEffect(() => {
-    fetchItems().then((res) => {
-      if (categoria) {
-        setItems(res.filter((item) => item.categoria === categoria));
-      } else {
-        setItems(res);
-      }
-      setLoading(false);
-    });
-  }, [categoria]);  */
-
   //Durante el tiempo de espera de la promesa se mostrara un mensaje de loading:
   if (loading) {
     return (
