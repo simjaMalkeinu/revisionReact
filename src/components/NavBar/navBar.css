@@ -1,0 +1,36 @@
+/*el archivo de estilos debe tener el mismo nombre del componente jsx. En este caso: 'navBar'*/
+/*Este archivo lo vamos a importar en Menu.jsx*/
+.principal-title {
+  text-decoration: none;
+  color: #000;
+}
+.menu {
+  display: flex;
+  background-color: rgba(140, 234, 234, 0.596);
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu ul {
+  display: inline;
+  justify-content: space-between;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0px;
+}
+.menu ul li {
+  display: inline;
+  margin: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+.menu ul li a {
+  padding: 3px;
+  color: #ffff;
+  text-decoration: none;
+  transition: 0.75s;
+}
+
+.menu ul li a:hover {
+  color: #000;
+}

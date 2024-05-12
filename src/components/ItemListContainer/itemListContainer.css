@@ -1,0 +1,74 @@
+/*GOOGLE FONTS 1*/
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/*GOOGLE FONTS 2*/
+/* .jersey-10-charted-regular {
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 25px;
+}
+
+/* .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .content h2,
+ul {
+  color: #ffff;
+  list-style: none;
+} */
+
+/*ANIMACION "CARGANDO TAREAS"*/
+
+.loading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.span {
+  background-color: aquamarine;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.span i {
+  margin: 25px;
+}
+.animation {
+  color: #005ebd;
+  animation: animation 1s ease-in-out infinite;
+}
+
+@keyframes animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading img {
+  width: 120px;
+  border-radius: 50%;
+  margin: 20px;
+  border-color: #005ebd;
+  border-style: solid;
+  border-width: 3px;
+}

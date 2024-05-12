@@ -1,0 +1,58 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  background-color: #005ebd;
+  margin: 15px;
+  padding: 5px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: #fff;
+}
+.button {
+  width: 20px;
+  color: #000;
+  font-size: large;
+  font-weight: bold;
+}
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.add-button {
+  color: #000;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.add-button:hover {
+  color: #fff;
+  background-color: #000;
+}
